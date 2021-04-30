@@ -1,0 +1,149 @@
+body{
+    background: #403B4A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);  /* Chrome 10-25, Safari 5.1-6 */
+    font-family: 'Antonio', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+ul{
+    list-style: none;
+}
+.navbar{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 20px;
+    background: grey;
+    width: 97%;
+    
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    padding: 1px 0 0 90px;
+    margin: auto;
+}
+.navbar ul li a{
+    padding: 4px;
+    text-decoration:none;
+    color: white;
+}
+.navbar ul li a:hover{
+    border-bottom: 4px solid rgb(2, 1, 1);
+    opacity: 0.6;
+}
+
+.logo{
+    font-size: 30px;
+    margin: auto;
+    color: black;
+}
+.logo .logo1{
+    
+    color: black;
+    background: white;
+    border-radius: 9px;
+}
+
+.inicio{
+    color: white;
+    text-align: center;
+}
+
+.grid{
+    text-align: center;
+    width: 100%;
+    display:grid;
+    grid-template-columns:20% 20% 20% 20% 20%; 
+}
+.grid div{
+    background-color: azure;
+    padding: 10px;
+    margin: 2px;
+    border: solid 1px black; 
+    border-radius:9px;
+    height: 200px;
+    width: 210px;
+}
+
+.center{
+    text-align: center;
+    color: white;
+}
+
+.grid img{
+    
+    width:100px;
+}
+
+.consultores{
+    color: white;
+}
+
+
+  
+  .formcontac {
+    font-family: Raleway-SemiBold;
+    font-size: 20px;
+    line-height: 1;
+    color: #000000;
+    text-align: center;
+  
+    display: block;
+    width: 90%;
+    background: #e6e6e6;
+    height: 35px;
+    border-radius: 5px;
+    padding: 0 15px 0 32px;
+  }
+
+  .formtextarea {
+    font-family: Raleway-SemiBold;
+    font-size: 20px;
+    line-height: 1;
+    color: #000000;
+    text-align: center;
+  
+    display: block;
+    width: 90%;
+    background: #e6e6e6;
+    height: 100px;
+    border-radius: 5px;
+    padding: 0 15px 0 32px;
+  }
+
+  .btnEnviar{
+    border-radius:25% 25% 25% 25%;
+    width: 30%;
+    height: 50px;
+    cursor:pointer;
+    display:block;
+    /*cursor:not-allowed;*/
+  }
+
+.btnEnviar:hover{
+    cursor:pointer;
+    font-style:italic;
+    box-shadow:3px 2px 10px 1px #b0b0b0;
+    color:#000;
+}
+
+.btnEnviar:active{
+    box-shadow:3px 2px 15px 1px#000;
+    font-weight:bold;
+    color:#000;
+}
+
+
+  
+  
+ 

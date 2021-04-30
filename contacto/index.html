@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contactanos</title>
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500&display=swap" rel="stylesheet"> 
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <div >
+                    <nav class="navbar">
+                        <ul>
+							<li class="logo"><a href="../" class="logo1">OneService</a></li>
+							<li><a href="../nosotros/">Nosotros</a></li>
+							<li><a href="../portafolio/">Portafolio</a></li>
+							<li><a href="../contacto/">Contactanos</a></li>
+							<li><a href="../direccion/">Dirección</a></li>
+							<li><a href="../consultores/">Consultores</a></li>
+						</ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="center">
+                <h1>CONTACTANOS</h1>
+            </div>
+            <center>
+                <br>
+                <form action="" method="POST">
+                    <table>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <fieldset>
+                                    <legend>Nombre:</legend>
+                                    <input type="text" class="formcontac" name="nombre" size="40" placeholder="Juan Penas" required="Obligatorio">
+                                </fieldset>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <fieldset>
+                                    <legend>Correo:</legend>
+                                    <input type="email" class="formcontac" name="correo" size="40" placeholder="usuario@dominio.com" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" required="Obligatorio">                                </fieldset>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <fieldset>
+                                    <legend>Comentarios:</legend>
+                                    <textarea class="formtextarea" name="comentarios" cols="40" rows="4" placeholder="Escriba un comentario" required="Obligatorio"></textarea>
+                                </fieldset>
+                            </td>
+                        </tr>
+                        <tr align="center">
+                            <td colspan="2"><input type="submit" class="btnEnviar" name="boton"></td>
+                        </tr>
+                    </table>
+                </form>
+            </center>
+        </div>
+    </body> 
+</html>
